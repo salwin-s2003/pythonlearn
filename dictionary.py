@@ -1,6 +1,13 @@
 # creating a dictionary in Python
 data = {1:'name1', 2:'name2', 3:'name3'}
 print(data)
+
+# another way to create a dictionary
+data = dict({1:'name1', 2:'name2', 3:'name3'})
+# retrieving all keys and values from the dictionary
+print(data.keys())
+print(data.values())
+print(data.items())
 # retreving a value from the dictionary
 print(data[3])
 
@@ -41,3 +48,4 @@ combdict ={'JS':'user1','cs':'user2','python':['user3','user4'],'java':{'jse':'u
 print(combdict)
 print(combdict['python'][1])
 print(combdict['java']['jse'])
+
