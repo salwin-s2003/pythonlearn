@@ -34,3 +34,14 @@ def even_string(str):
             print(str[i],end = " ")
 str=input("Enter a string:")
 even_string(str)
+
+
+#to find the length of the string using while loop 
+number = int(input("Enter a number:"))
+count=0
+if number==0:
+    print("The length of the number is: 1")
+while number>=0:
+    number=number//10
+    count+=1
+print("The length of the number is:",count)
